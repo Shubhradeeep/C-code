@@ -1,0 +1,14 @@
+Kadane's Algorithm--->
+
+Given an array Arr[] of N integers.
+ Find the contiguous sub-array(containing at least one number)
+ which has the maximum sum and return its sum.....................................[GFG]
+
+
+Given an array of integers nums, sort the array in increasing order based on
+ the frequency of the values. If multiple values have the same frequency, 
+sort them in decreasing order. Return the sorted array............................[LEETCODE 1636]
+
+     sort(nums.begin(),nums.end(),[&](int a, int b)
+             {return m[a]!=m[b]? m[a]<m[b]: a>b;});
+
